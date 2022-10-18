@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Sneha/IdeaProjects/Automation/src/com/basics/TestNG/TestWithPriority.java">
+        <classes>
+            <class name="com.basics.TestNG.TestWithPriority">
+                <methods>
+                    <include name="SignUp"/>
+                    <include name="login"/>
+                    <include name="checkOut"/>
+                    <include name="failedTest"/>
+                </methods>
+                <methods>
+                    <exclude name="bookTicket"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

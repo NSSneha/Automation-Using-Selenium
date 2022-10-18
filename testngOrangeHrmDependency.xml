@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange Hrm Dependency">
+    <test name="Orange HrmDependency Testing">
+        <classes>
+            <class name="com.basics.TestNG.OrangeHrmDependencyCreation">
+            <methods>
+                <include name="openBrowser"/>
+                <include name="loginToAppl"/>
+                <include name="logoutFromAppl"/>
+                <include name="tearDown"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
